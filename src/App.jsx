@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Dock from './components/Dock.jsx'
+import { VscHome, VscAccount, VscBriefcase, VscFolderOpened } from 'react-icons/vsc'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const items = [
+    { icon: <VscHome size={18} />, label: 'Home', onClick: () => alert('Home!') },
+    { icon: <VscAccount size={18} />, label: 'About me', onClick: () => alert('About me!') },
+    { icon: <VscBriefcase size={18} />, label: 'Experiences', onClick: () => alert('Experiences!') },
+    { icon: <VscFolderOpened size={18} />, label: 'Projects', onClick: () => alert('Projects!') }
+  ];
+
+  console.log(items)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>test</h1>
+      <Dock
+        items={items}
+        panelHeight={68}
+        baseItemSize={50}
+        magnification={70}
+      />
     </>
   )
 }
 
-export default App
+export default App;
