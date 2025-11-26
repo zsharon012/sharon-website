@@ -1,6 +1,7 @@
 import MyDock from '../components/MyDock';
 import TextType from '../components/TextType';
 import ProfileImg from '../assets/profile.png';
+import SplashCursor from '../components/SplashCursor';
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
                 <p className='quick-blurb'>{quickBlurb}</p>
                 <MyDock />
             </div>
+            {/* <SplashCursor /> */}
         </div>
     );
 }
