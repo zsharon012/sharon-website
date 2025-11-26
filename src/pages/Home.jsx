@@ -1,4 +1,4 @@
-import MyDock from '../components/MyDock';
+import MyDock from '../components/myDock';
 import TextType from '../components/TextType';
 import ProfileImg from '../assets/profile.png';
 import SplashCursor from '../components/SplashCursor';
@@ -8,7 +8,9 @@ export default function Home() {
     const quickBlurb = "A computer science student at\
                         Northwestern University. I love building\
                         things, getting new experiences, and\
-                        exploring my creativity."
+                        exploring my creativity. I'm inspired by those who are able to make an impact\
+                        through their work. Thus, with everything I commit\
+                        myself to, I create with passion and empathy."
 
     return (
         <div className='home-items'>
@@ -26,7 +28,7 @@ export default function Home() {
                 <p className='quick-blurb'>{quickBlurb}</p>
                 <MyDock />
             </div>
-            {/* <SplashCursor /> */}
+            <SplashCursor />
         </div>
     );
 }

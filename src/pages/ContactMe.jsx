@@ -1,10 +1,10 @@
 import MyDock from '../components/myDock';
 
-export default function Projects() {
+export default function ContactMe() {
 
     return (
         <>
-            <h1>projects</h1>
+            <h1>contact me</h1>
             <MyDock />
         </>
     );

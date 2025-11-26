@@ -81,3 +81,18 @@ button:focus-visible {
 .home-items {
   display: flex;
 }
+
+.experience-blurb > * {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.experience-blurb {
+  padding: .2px 25px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.space {
+  margin: 30px;
+}
