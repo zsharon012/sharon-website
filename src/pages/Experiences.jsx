@@ -52,6 +52,7 @@ export default function Experiences() {
         <>
             <h1>Experiences</h1>
             <p className='experience-boxes'>{displayExperiences}</p>
+            <div className='more-space'></div>
             <MyDock />
         </>
     );

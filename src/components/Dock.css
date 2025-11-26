@@ -3,10 +3,12 @@
   display: flex;
   max-width: 100%;
   align-items: center;
+  position: fixed;
+  z-index: 9999;
 }
 
 .dock-panel {
-  position: absolute;
+  position: fixed;
   bottom: 0.5rem;
   left: 50%;
   transform: translateX(-50%);

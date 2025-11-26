@@ -96,3 +96,7 @@ button:focus-visible {
 .space {
   margin: 30px;
 }
+
+.more-space {
+  margin-top: 90px
+}
