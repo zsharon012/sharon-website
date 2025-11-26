@@ -1,6 +1,6 @@
 import MyDock from '../components/MyDock';
 
-export default function Experience() {
+export default function Experiences() {
 
     return (
         <>

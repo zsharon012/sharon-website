@@ -11,7 +11,7 @@ function MyDock() {
 
     const items = [
         { icon: <VscHome size={18} />, label: 'Home', onClick: () => goToPage('/') },
-        { icon: <VscAccount size={18} />, label: 'About me', onClick: () => goToPage('/aboutme') },
+        { icon: <VscAccount size={18} />, label: 'About Me', onClick: () => goToPage('/aboutme') },
         { icon: <VscBriefcase size={18} />, label: 'Experiences', onClick: () =>  goToPage('/experiences') },
         { icon: <VscFolderOpened size={18} />, label: 'Projects', onClick: () => goToPage('/projects') }
     ];
