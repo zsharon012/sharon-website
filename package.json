@@ -13,6 +13,7 @@
     "@vscode/codicons": "^0.0.43",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "flat-color-icons": "^1.1.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.554.0",
     "motion": "^12.23.24",
