@@ -4,12 +4,18 @@ export default function Experiences() {
 
     const experiences = [
         {
-            name: "iEmbrace",
-            role: "Software Engineer Intern",
-            dates: "Jan 2025 - May 2025",
-            blurb: "🌅 Improved landing page for a meditation startup to\
-                    help users stay connected with upcoming updates",
-            skills: "JavaScript, Figma"
+            name: "Data Structures & Algorithms Northwestern University",
+            role: "Teaching Assistant",
+            dates: "Sep 2025 - Present",
+            blurb: "📚 Mentoring students on class content and homework by hosting office hours and grading exams",
+            skills: "DSSL2 (similar to Python)"
+        },
+        {
+            name: "Qualitative Reasoning Group Northwestern University",
+            role: "Undergraduate Research Intern",
+            dates: "Jun 2025 - Sep 2025",
+            blurb: "🧠 Designed an interactive knowledge-capture game to help the AI SocialBot learn social norms and human reasoning",
+            skills: "Microsoft Adaptive Cards, UTM VM, Docker"
         },
         {
             name: "Clark Street Beach Bird Sanctuary",
@@ -20,18 +26,12 @@ export default function Experiences() {
             skills: "React.js, Tailwind CSS, Figma, JavaScript"
         },
         {
-            name: "Qualitative Reasoning Group Northwestern University",
-            role: "Undergraduate Research Intern",
-            dates: "Jun 2025 - Sep 2025",
-            blurb: "🧠 Designed an interactive knowledge-capture game to help the AI SocialBot learn social norms and human reasoning",
-            skills: "Microsoft Adaptive Cards, UTM VM, Docker"
-        },
-        {
-            name: "Data Structures & Algorithms Northwestern University",
-            role: "Teaching Assistant",
-            dates: "Sep 2025 - Present",
-            blurb: "📚 Mentoring students on class content and homework by hosting office hours and grading exams",
-            skills: "DSSL2 (similar to Python)"
+            name: "iEmbrace",
+            role: "Software Engineer Intern",
+            dates: "Jan 2025 - May 2025",
+            blurb: "🌅 Improved landing page for a meditation startup to\
+                    help users stay connected with upcoming updates",
+            skills: "JavaScript, Figma"
         }
     ]
 
