@@ -11,7 +11,7 @@ export default function ContactMe() {
                 <VscMail size={40}/>
                 <h3>zsharon012@gmail.com</h3>
             </a>
-            <a href="https://www.linkedin.com/in/zsharon012/">
+            <a href="https://linkedin.com/in/zsharon012/">
                 <FiLinkedin size={40} />
                 <h3>www.linkedin.com/in/zsharon012</h3>
             </a>

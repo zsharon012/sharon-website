@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <div className='home-items'>
             <img className='profile-pic' src={ProfileImg} alt='profile picture'/>
-            <div>
+            <div className='intro'>
                 <h1>Hi, I'm Sharon Zheng!</h1>
                 <TextType
                     text={["Welcome to my life", "A glimpse of me", "Enjoy!"]}

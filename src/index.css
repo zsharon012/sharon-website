@@ -5,8 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #060010;
-
+  background-color: #100e10;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,26 +14,31 @@
 
 a {
   font-weight: 200;
+  font-size: 16px;
   color: #ffffff;
   text-decoration: inherit;
   display: flex;
   align-items: center;
 }
 a:hover {
-  color: #f0bf5e;
+  text-shadow: 0 0 0px #00e9ff, 0 0 20px #dd49e5;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 1rem;
+  overflow-x: hidden;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 0.5em 0;
 }
 
 button {
@@ -72,16 +76,26 @@ button:focus-visible {
 .quick-blurb {
   max-width: 600px;
   font-size: large;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+  color: #d5d5d5;
 }
 
 .profile-pic {
   height: 400px;
+  width: 400px;
   border-radius: 10%;
   margin-right: 50px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .home-items {
   display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .experience-blurb > * {
@@ -92,11 +106,78 @@ button:focus-visible {
 .experience-blurb {
   padding: .2px 25px;
   border: 1px solid white;
+  display: flex;
   border-radius: 25px;
+}
+.experience-blurb:hover {
+
 }
 
 .space {
   margin: 30px;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .profile-pic {
+    height: 300px;
+    width: 300px;
+    margin-right: 2rem;
+  }
+
+  .quick-blurb {
+    font-size: 1rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .home-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .intro {
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin-top: 100px;
+    height: 250px;
+    width: 250px;
+    margin-right: 0;
+  }
+
+  .quick-blurb {
+    font-size: 0.95rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contacts {
+    margin-top: 240px;
+  }
 }
 
 .more-space {
@@ -105,4 +186,12 @@ button:focus-visible {
 
 .contacts h3 {
   margin-left: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  margin-top: 52px;
+  margin-right: 30px;
 }
