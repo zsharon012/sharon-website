@@ -42,26 +42,27 @@ export default function Experiences() {
         }
     ]
 
-    const displayExperiences = experiences.map((exp) =>
-        <>
+    const displayExperiences = experiences.map((exp, idx) => (
+        <div className='experience-item' key={idx}>
             <div className='experience-blurb'>
-                <img className='logo' src={exp.img} alt={exp.name}/>
+                <div className='logo-container'>
+                    <img className='logo' src={exp.img} alt={exp.name} />
+                </div>
                 <div>
                     <h2>{exp.role}</h2>
                     <h3>{exp.name}</h3>
-                    <p>{exp.dates}</p>
+                    <p className='dates'>{exp.dates}</p>
                     <p>{exp.blurb}</p>
-                    <p>{exp.skills}</p>
+                    <p className='skills'>{exp.skills}</p>
                 </div>
             </div>
-            <div className='space'></div>
-        </>
-    )
+        </div>
+    ))
 
     return (
         <>
             <h1>Experiences</h1>
-            <p className='experience-boxes'>{displayExperiences}</p>
+            <div className='experience-boxes'>{displayExperiences}</div>
             <div className='more-space'></div>
             <MyDock />
         </>
