@@ -1,4 +1,9 @@
 import MyDock from '../components/myDock';
+import Finances from '../assets/finances.png';
+import Java from '../assets/java.png';
+import Python from '../assets/python.png';
+import TripPlanner from '../assets/trip-planner.png';
+import CSBBS from '../assets/csbbs.png'
 
 export default function Projects() {
 
@@ -8,35 +13,35 @@ export default function Projects() {
             blurb: "A website to input and track plant data with an interactive map and data table",
             skills: "React, Tailwind, Figma, JavaScript",
             link: "https://bird-plant-tracker-frontend.vercel.app/map",
-            img: ""
+            img: CSBBS
         },
         {
             name: "Python Debugger",
             blurb: "A python debugger that executes python code and shows state of memory",
             skills: "C, C++",
             link: "https://github.com/zsharon012",
-            img: ""
+            img: Python
         },
         {
             name: "Financial Simulator",
             blurb: "An object oriented simulation modeling 40-year savings and debt",
             skills: "Python",
             link: "https://github.com/zsharon012",
-            img: ""
+            img: Finances
         },
         {
             name: "Java Linter",
             blurb: "Given bytecode files, parses through to flag errors and stylistic issues",
             skills: "Java, PlantUML",
             link: "https://github.com/nu-cs-sw-design/project-20252601-snack_attack",
-            img: ""
+            img: Java
         },
         {
             name: "Trip Planner",
             blurb: "A program storing map data points used to help users plan routes and trips",
             skills: "DSSL2",
             link: "https://github.com/zsharon012",
-            img: ""
+            img: TripPlanner
         }
     ]
 
@@ -48,8 +53,11 @@ export default function Projects() {
             rel="noopener noreferrer"
             className='project-card'
         >
-            <div className='project-info'>
-                <div>
+            <div className='project-box'>
+                <div className='logo-container'>
+                    <img className='logo' src={proj.img} alt={proj.name} />
+                </div>
+                <div className='project-info'>
                     <h2>{proj.name}</h2>
                     <p>{proj.blurb}</p>
                     <p className='skills'>{proj.skills}</p>
@@ -60,7 +68,7 @@ export default function Projects() {
 
     return (
         <>
-            <h1>projects</h1>
+            <h1 className='project-title'>Projects</h1>
             <div className='project-boxes'>{displayProjects}</div>
             <div className='more-space'></div>
             <MyDock />
