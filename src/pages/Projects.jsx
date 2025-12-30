@@ -1,4 +1,4 @@
-import MyDock from '../components/myDock';
+import MyDock from '../components/MyDock';
 import Finances from '../assets/finances.png';
 import Java from '../assets/java.png';
 import Python from '../assets/python.png';
@@ -10,7 +10,7 @@ export default function Projects() {
     const projects = [
         {
             name: "Clark Street Beach Bird Sanctuary",
-            blurb: "A website to input and track plant data with an interactive map and data table",
+            blurb: "A website that helps volunteers input and track plant data with an interactive map and data table",
             skills: "React, Tailwind, Figma, JavaScript",
             link: "https://bird-plant-tracker-frontend.vercel.app/map",
             img: CSBBS
@@ -24,21 +24,21 @@ export default function Projects() {
         },
         {
             name: "Financial Simulator",
-            blurb: "An object oriented simulation modeling 40-year savings and debt",
+            blurb: "An object oriented simulation that shows a realistic 40-year model of savings and debt",
             skills: "Python",
             link: "https://github.com/zsharon012",
             img: Finances
         },
         {
             name: "Java Linter",
-            blurb: "Given bytecode files, parses through to flag errors and stylistic issues",
+            blurb: "A program when given bytecode files, parses through to flag errors and stylistic issues",
             skills: "Java, PlantUML",
             link: "https://github.com/nu-cs-sw-design/project-20252601-snack_attack",
             img: Java
         },
         {
             name: "Trip Planner",
-            blurb: "A program storing map data points used to help users plan routes and trips",
+            blurb: "A program that helps users to plan routes and trips",
             skills: "DSSL2",
             link: "https://github.com/zsharon012",
             img: TripPlanner

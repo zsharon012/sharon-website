@@ -1,4 +1,4 @@
-import MyDock from '../components/myDock';
+import MyDock from '../components/MyDock';
 import TextType from '../components/TextType';
 import ProfileImg from '../assets/profile.png';
 import SplashCursor from '../components/SplashCursor';
@@ -6,11 +6,10 @@ import SplashCursor from '../components/SplashCursor';
 export default function Home() {
 
     const quickBlurb = "A computer science student at\
-                        Northwestern University. I love building\
-                        things, getting new experiences, and\
-                        exploring my creativity. I'm inspired by those who are able to make an impact\
-                        through their work. Thus, with everything I commit\
-                        myself to, I create with passion and empathy."
+                        Northwestern University who loves building\
+                        ,experiencing new things, and\
+                        exploring my creativity. I'm inspired to make an impact\
+                        through my work and hope to continue to create with passion and empathy."
 
     return (
         <div className='home-items'>

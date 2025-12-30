@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+			serif: ['Lora', 'ui-serif', 'Georgia']
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
