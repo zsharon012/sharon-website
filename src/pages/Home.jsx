@@ -6,8 +6,8 @@ import SplashCursor from '../components/SplashCursor';
 export default function Home() {
 
     const quickBlurb = "A computer science student at\
-                        Northwestern University who loves building\
-                        ,experiencing new things, and\
+                        Northwestern University who loves building,\
+                        experiencing new things, and\
                         exploring my creativity. I'm inspired to make an impact\
                         through my work and hope to continue to create with passion and empathy."
 

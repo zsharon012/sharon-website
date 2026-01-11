@@ -1,4 +1,4 @@
-import MyDock from '../components/myDock';
+import MyDock from '../components/MyDock';
 import { VscMail, VscGithubAlt } from "react-icons/vsc";
 import { FiLinkedin } from "react-icons/fi";
 

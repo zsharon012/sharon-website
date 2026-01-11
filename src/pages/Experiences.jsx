@@ -1,4 +1,4 @@
-import MyDock from '../components/myDock';
+import MyDock from '../components/MyDock';
 import NUCS from '../assets/nu_cs.png';
 import CSBBS from '../assets/csbbs.png';
 import iEmbrace from '../assets/iembrace.png';
