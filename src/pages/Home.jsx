@@ -1,6 +1,7 @@
 import MyDock from '../components/MyDock';
 import TextType from '../components/TextType';
 import ProfileImg from '../assets/profile.png';
+import Contacts from '../pages/Contacts';
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
                     className='text'
                 />
                 <p className='quick-blurb'>{quickBlurb}</p>
+                <Contacts />
                 <MyDock />
             </div>
         </div>

@@ -1,37 +1,35 @@
-import MyDock from '../components/MyDock';
-import { VscMail, VscGithubAlt } from "react-icons/vsc";
-import { FiLinkedin } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function ContactMe() {
 
     return (
         <div className='contacts'>
-            <h1>Contact Me</h1>
             <a
                 href="mailto: zsharon012@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <VscMail size={40}/>
-                <h3>zsharon012@gmail.com</h3>
+                <BiLogoGmail size={23}/>
+                <p>zsharon012@gmail.com</p>
             </a>
             <a
                 href="https://linkedin.com/in/zsharon012/"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <FiLinkedin size={40} />
-                <h3>www.linkedin.com/in/zsharon012</h3>
+                <FaLinkedin size={20} />
+                <p>www.linkedin.com/in/zsharon012</p>
             </a>
             <a
                 href="https://github.com/zsharon012"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <VscGithubAlt size={40} />
-                <h3>www.github.com/zsharon012</h3>
+                <FaGithub size={20} />
+                <p>www.github.com/zsharon012</p>
             </a>
-            <MyDock />
         </div>
     );
 }

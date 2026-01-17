@@ -13,7 +13,6 @@ function MyDock() {
         { icon: <VscHome size={18} />, label: 'Home', onClick: () => goToPage('/') },
         { icon: <VscBriefcase size={18} />, label: 'Experiences', onClick: () =>  goToPage('/experiences') },
         { icon: <VscFolderOpened size={18} />, label: 'Projects', onClick: () => goToPage('/projects') },
-        { icon: <VscAccount size={18} />, label: 'Contact Me', onClick: () => goToPage('/contactme') }
     ];
     
     return (
