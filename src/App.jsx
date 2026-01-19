@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 // page components
 import Home from './pages/Home';
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/experiences" element={<Experiences />} />
       </Routes>
+      <Analytics />
     </Router>
   )
 }
