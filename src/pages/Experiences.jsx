@@ -2,10 +2,28 @@ import MyDock from '../components/MyDock';
 import NUCS from '../assets/nu_cs.png';
 import CSBBS from '../assets/csbbs.png';
 import iEmbrace from '../assets/iembrace.png';
+import YWCA from '../assets/ywca_evanston.png';
+import Collins from '../assets/collins_aero.png';
 
 export default function Experiences() {
 
     const experiences = [
+        {
+            name: "Collins Aerospace",
+            role: "Software Engineer Intern",
+            dates: "Jun 2026 - Present",
+            blurb: "",
+            skills: "",
+            img: Collins
+        },
+        {
+            name: "YWCA Evanston/North Shore",
+            role: "Software Engineer Intern",
+            dates: "Jan 2026 - Jun 2026",
+            blurb: "📊 Created a full-stack web application that automated email schedule-sending with visual representations of outreach data",
+            skills: "React.js, JavaScript, AWS RDS, AWS S3, Firebase",
+            img: YWCA
+        },
         {
             name: "Data Structures & Algorithms Northwestern University",
             role: "Teaching Assistant",
