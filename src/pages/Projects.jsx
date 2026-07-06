@@ -1,6 +1,6 @@
 import MyDock from '../components/MyDock';
+import ExplodingKittens from '../assets/exploding_kittens.png';
 import Finances from '../assets/finances.png';
-import Java from '../assets/java.png';
 import Python from '../assets/python.png';
 import TripPlanner from '../assets/trip-planner.png';
 import CSBBS from '../assets/csbbs.png'
@@ -16,6 +16,13 @@ export default function Projects() {
             img: CSBBS
         },
         {
+            name: "Exploding Kittens",
+            blurb: "A fun game of the card game Exploding Kittens that can be played with friends, with additional cards and win conditions",
+            skills: "Java, JUnit, Gradle, Cucumber/BDD, CI/CD",
+            link: "https://github.com/nu-cs-sqe/course-project-20252603-team-06-20252603",
+            img: ExplodingKittens
+        },
+        {
             name: "Python Debugger",
             blurb: "A python debugger that executes python code and shows state of memory",
             skills: "C, C++",
@@ -28,13 +35,6 @@ export default function Projects() {
             skills: "Python",
             link: "https://github.com/zsharon012",
             img: Finances
-        },
-        {
-            name: "Java Linter",
-            blurb: "A program when given bytecode files, parses through to flag errors and stylistic issues",
-            skills: "Java, PlantUML",
-            link: "https://github.com/nu-cs-sw-design/project-20252601-snack_attack",
-            img: Java
         },
         {
             name: "Trip Planner",
