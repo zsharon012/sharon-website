@@ -1,9 +1,9 @@
 import MyDock from '../components/MyDock';
+import CSBBS from '../assets/csbbs.png';
 import ExplodingKittens from '../assets/exploding_kittens.png';
 import Finances from '../assets/finances.png';
 import Python from '../assets/python.png';
 import TripPlanner from '../assets/trip-planner.png';
-import CSBBS from '../assets/csbbs.png'
 
 export default function Projects() {
 
